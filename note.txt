@@ -1,0 +1,26 @@
+Three sections of a Git project
+1. Working Directory	A particular version of a project that you have checkout
+2. Staging Area		Storing information of what goes into the next commit
+3. .git Directory	Storing all the commit snapshots
+
+Three states of git repos files
+1. modified	file has been changed but not yet committed to the database.
+2. staged	modified file which will be included in the next commit.
+3. committed	file that has been successfully stored in the database.
+
+Git commands
+add <file>			put one file in stage
+[-u] 				only put file that has been
+
+rm --cache <file>		unstage a file, but it will still exist in the directory.
+
+diff [<file>]			show what have been changed but not yet staged
+[--staged]			show difference between staged changed and your last commit
+
+status -s			show git status output in a simplified way
+
+commit -v			show what have been changed while in the text editor
+
+mv <file_from> <file_to>	rename a staged file, and add that file into stage. 
+  
+
