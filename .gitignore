@@ -3,3 +3,6 @@
 
 # ignore files in folder "build"
 build/
+
+# ignore .txt files
+*.txt
